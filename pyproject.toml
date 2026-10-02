@@ -1,0 +1,24 @@
+[project]
+name = "pyhashprint"
+version = "1.0.0"
+description = "A forensic CLI tool for hash identification"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pyfiglet>=1.0.4",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "rich-argparse>=1.8.0",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.scripts]
+hashprint = "HashPrint.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/HashPrint"]
