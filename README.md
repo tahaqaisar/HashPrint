@@ -126,5 +126,7 @@ This project is licensed under the [MIT](./LICENSE) license.
 Found a bug or have an idea for a new feature?
 
 -**For bugs:** [Open an Issue](https://github.com/tahaqaisar/HashPrint/issues).
+
 -**Suggest a feature or an improvement:** [Open an Issue](https://github.com/tahaqaisar/HashPrint/issues).
+
 -**For new ideas or questions:** Feel free to start a thread in [Discussions](https://github.com/tahaqaisar/HashPrint/discussions)!
